@@ -1,1 +1,30 @@
+public class Contador {
 
+    int valor;
+
+    public Contador(int valor) {
+        this.valor = valor;
+    }
+
+    public Contador() {
+        this.valor = 0;
+    }
+
+    public void incrementar() {
+        valor = valor + 1;
+    }
+
+    public void decrementar() {
+        if (valor == 0) {
+            valor = 0;
+        } else {
+            valor = valor - 1;
+        }
+    }
+    public void resetear(){
+        valor= 0;
+    }
+    public int getValor(){
+        return valor;
+    }
+}
