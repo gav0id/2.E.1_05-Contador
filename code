@@ -28,3 +28,26 @@ public class Contador {
         return valor;
     }
 }
+
+METODO MAIN (fuera de la consigna)
+public static void main(String[] args) {
+    Contador contador1 = new Contador();
+    System.out.println("Valor inicial (por defecto): " + contador1.getValor());
+
+    contador1.incrementar();
+    contador1.incrementar();
+    System.out.println("Tras incrementar dos veces: " + contador1.getValor());
+
+    contador1.decrementar();
+    System.out.println("Tras decrementar una vez: " + contador1.getValor());
+
+    contador1.decrementar();
+    contador1.decrementar(); // Intentamos bajar de cero
+    System.out.println("Tras intentar decrementar por debajo de cero: " + contador1.getValor());
+
+    Contador contador2 = new Contador(5);
+    System.out.println("Valor inicial (parametrizado en 5): " + contador2.getValor());
+
+    contador2.resetear();
+    System.out.println("Tras aplicar resetear al segundo contador: " + contador2.getValor());
+}
