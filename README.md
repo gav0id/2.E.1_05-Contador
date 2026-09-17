@@ -12,5 +12,6 @@ Para el comportamiento de la clase, implementé cuatro métodos que manipulan el
 4. `getValor()`: un método de tipo getter que retorna el número almacenado actualmente.
    
 Ejecución en consola (agregue un metodo main para probarlo)
-<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/42e8eb19-f663-409d-a122-aa1beb5cf4b3" />
+<img width="1366" height="721" alt="imagen" src="https://github.com/user-attachments/assets/7e8e0436-15b2-417b-ae67-4cb84cd8ba47" />
+
 
